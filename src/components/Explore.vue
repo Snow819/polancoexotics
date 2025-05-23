@@ -1,4 +1,4 @@
-<style>
+<style scoped>
   .Explore_brands{
     padding-top: 2.5cm;
     padding-left: 70px;

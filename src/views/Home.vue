@@ -1,4 +1,4 @@
-<style>
+<style scoped>
 .home_hero_page{
     background-image: url(/public/images/9fa419ec2abcb24a9fc1024787f16aaa.jpeg);
     height: 100vh;
@@ -71,6 +71,12 @@
     <Explore/>
     <Explorevehicles/>
     <fairprice/>
+    <whychoose/>
+    <Popularmakes/>
+  
+    <footer>
+      <footervue/>
+    </footer>
 </template>
 <script>
 // Import the Search component using relative path
@@ -78,6 +84,9 @@ import Search from '@/components/Search.vue'
 import Explore from '@/components/Explore.vue';
 import Explorevehicles from '@/components/Explorevehicles.vue';
 import fairprice from '@/components/fairprice.vue';
+import whychoose from '@/components/whychoose.vue';
+import footervue from '@/components/footer.vue';
+import Popularmakes from '@/components/Popularmakes.vue';
 export default {
   name: 'Home',
   // Register the component
@@ -85,7 +94,10 @@ export default {
     Search,
     Explore,
     Explorevehicles,
-    fairprice
+    fairprice,
+    whychoose,
+    Popularmakes,
+    footervue
   },
   // Rest of your component options
 }
