@@ -1,4 +1,13 @@
 <template>
+  <div class="Explore_vehicles">
+      <div class="Explore_brands_header">
+            <h2>Explore All Vehicles</h2>
+            <button>View All <i class="bi bi-arrow-up-right"></i></button>
+        </div>
+           <div>
+            
+           </div>
+    </div>
   <div class="app-container">
     <CardCarousel :cards="carouselItems" title="" />
   </div>
@@ -118,4 +127,13 @@ export default {
   margin: 0 auto;
   padding: 0rem 1.5rem;
 }
+.Explore_vehicles{
+    padding-top: 2.5cm;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 1.5cm;
+  }
+  @media screen and (max-width: 1200px) {
+    
+  }
 </style>

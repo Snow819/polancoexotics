@@ -21,6 +21,15 @@
     <div>
         <Reviews/>
     </div>
+    <div>
+        <Explore/>
+    </div>
+    <div>
+        <fairprice/>
+    </div>
+    <div>
+        <latestblogpost/>
+    </div>
     <footer>
         <footervue/>
     </footer>
@@ -95,6 +104,9 @@ import Mostsearched from '@/components/Mostsearched.vue';
 import searchingfor from '@/components/searchingfor.vue';
 import Popularmakes from '@/components/Popularmakes.vue';
 import Reviews from '@/components/Reviews.vue';
+import Explore from '@/components/Explore.vue';
+import fairprice from '@/components/fairprice.vue'
+import latestblogpost from '@/components/latestblogpost.vue'
 import footervue from '@/components/footer.vue';
 export default {
     name:'Listing',
@@ -104,6 +116,9 @@ export default {
         searchingfor,
         Popularmakes,
         Reviews,
+        Explore,
+        fairprice,
+        latestblogpost,
         footervue
     },
 }

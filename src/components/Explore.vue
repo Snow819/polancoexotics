@@ -48,12 +48,6 @@
     cursor: pointer;
   } 
   /* =====================Explore All Vehicles===================== */
-  .Explore_vehicles{
-    padding-top: 2.5cm;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 1.5cm;
-  }
   /* ===================Explore All Vehicles End============ */
   
   @media screen and (max-width: 1200px) {
@@ -112,15 +106,7 @@
           </div>
          </div>   
     </div>
-    <div class="Explore_vehicles">
-      <div class="Explore_brands_header">
-            <h2>Explore All Vehicles</h2>
-            <button>View All <i class="bi bi-arrow-up-right"></i></button>
-        </div>
-           <div>
-            
-           </div>
-    </div>
+    
 
     
 </template>

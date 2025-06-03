@@ -142,6 +142,17 @@
     /* margin: 0; */
     padding: 20px;
   }
+  .popular_makes_header{
+    flex-direction: column;
+  }
+  .popular_makes_availability ul{
+    display: none;
+  }
+  .popular_makes{
+    background-color: #050B20;
+    color: white;
+    padding: 10px 20px;
+}
 
 }
 </style>

@@ -138,6 +138,10 @@
     display: grid;
     grid-template-columns: 1fr;
   } 
+  .search_for_second{
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 }
 
 </style>

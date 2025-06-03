@@ -17,6 +17,10 @@ import searchingfor from '@/components/searchingfor.vue'
 import InfiniteCarousel from '@/components/InfiniteCarousel.vue'
 import Reviews from '@/components/Reviews.vue'
 import TestimonialCarousel from '@/components/TestimonialCarousel.vue'
+import latestblogpost from '@/components/latestblogpost.vue'
+import Blog from '../views/Blog.vue'
+import Exploreallvehicles from '@/components/Exploreallvehicles.vue'
+import vehiclecarousel from '@/components/vehiclecarousel.vue'
 
 const routes = [
   {
@@ -30,9 +34,19 @@ const routes = [
     component:Reviews
   },
   {
+    path: '/vehiclecarousel',
+    name: 'vehiclecarousel',
+    component:vehiclecarousel
+  },
+  {
     path: '/TestimonialCarousel',
     name: 'TestimonialCarousel',
     component:TestimonialCarousel
+  },
+  {
+    path: '/Exploreallvehicles',
+    name: 'Exploreallvehicles',
+    component:Exploreallvehicles
   },
   {
     path:'/searchingfor',
@@ -48,6 +62,16 @@ const routes = [
     path: '/Popularmakes',
     name: 'Popularmakes',
     component:Popularmakes
+  },
+  {
+    path: '/Blog',
+    name: 'Blog',
+    component:Blog
+  },
+  {
+    path: '/latestblogpost',
+    name: 'latestblogpost',
+    component:latestblogpost
   },
   {
     path: '/InfiniteCarousel',
