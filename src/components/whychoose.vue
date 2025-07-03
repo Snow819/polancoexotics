@@ -1,8 +1,7 @@
 <template>
     <div>
-        
+        <h3>Why Choose Us?</h3>
     </div>
-    <h3>Why Choose Us?</h3>
     <div class="whychoose">
         <div>
             <img src="../../public/logo.png" alt="img">
@@ -36,9 +35,10 @@ find financial solutions to save you money.</p>
     border: none;
 }
 h3{
-    margin-left: 11rem;
+    margin-left: 8.3rem;
     font-size: 190%;
     margin-top: 3cm;
+    font-weight: 600;
     color: rgba(0, 0, 0, 0.781);
 }
 .whychoose{
@@ -52,7 +52,8 @@ h3{
 }
 .whychoose p{
     font-size: 80%;
-    color: rgba(0, 0, 0, 0.781);
+    color: rgba(0, 0, 0, 0.538);
+    font-weight: 700;
 }
 .whychoose img{
     height: 50px;

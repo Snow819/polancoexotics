@@ -21,6 +21,9 @@ import latestblogpost from '@/components/latestblogpost.vue'
 import Blog from '../views/Blog.vue'
 import Exploreallvehicles from '@/components/Exploreallvehicles.vue'
 import vehiclecarousel from '@/components/vehiclecarousel.vue'
+import Browse from '@/components/Browse.vue'
+import Shop from '@/components/Shop.vue'
+import Calculator from '@/components/Calculator.vue'
 
 const routes = [
   {
@@ -32,6 +35,21 @@ const routes = [
     path: '/Reviews',
     name: 'Reviews',
     component:Reviews
+  },
+  {
+    path: '/Calculator',
+    name: 'Calculator',
+    component:Calculator
+  },
+  {
+    path: '/Shop',
+    name: 'Shop',
+    component:Shop
+  },
+  {
+    path: '/Browse',
+    name: 'Browse',
+    component:Browse
   },
   {
     path: '/vehiclecarousel',
